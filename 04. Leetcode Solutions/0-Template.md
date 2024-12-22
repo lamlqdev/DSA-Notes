@@ -1,9 +1,9 @@
-# Problem <problem_index>: <problem_name>
+# 💬 Problem <problem_index>: <problem_name>
 
-## Problem Statement
+## 📝 Problem Statement
 This is the problem statement
 
-## Example
+## 📚 Example
 
 **Input:**
 ```
@@ -17,13 +17,13 @@ This is the problem statement
 ```
 ```
 
-## Constraints
-> - This is the 1st constraint
-> - This is the 2nd constraint
+## 📏 Constraints
+ - This is the 1st constraint
+ - This is the 2nd constraint
 
-## Solution
+## 🎯 Solution
 
-### Approach <approach_index>: <approach_name>
+### Approach <approach_index>: <approach_name> (🚀) 
 
 #### *Description:*
 >
