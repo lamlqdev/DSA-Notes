@@ -18,6 +18,10 @@
 ```
 ```
 
+## Constraints
+> - `This is the 1st constraint`
+> - `This is the 2nd constraint`
+
 ## Solution
 
 ### Approach <approach_index>: <approach_name>

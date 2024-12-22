@@ -25,6 +25,12 @@ nums = [2, 7, 11, 15], target = 9
 Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
+## Constraints
+> - `2 <= nums.length <= 10^4`
+> - `-10^9 <= nums[i] <= 10^9`
+> - `-109 <= target <= 109`
+> - **Only one valid answer exists**
+
 ## Solution
 
 ### Approach 1: Brute Force
