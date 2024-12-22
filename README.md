@@ -1,2 +1,7 @@
-# Data Structure & Algorithm - Javascript
-JavaScript implementations of common Data Structures and Algorithms for problem solving and interview preparation.
+# Data Structure & Algorithm
+
+## Description
+Implementations of common Data Structures and Algorithms for problem solving and interview preparation.
+
+## Problem Sets & Solutions
+#### 1. **Two Sum**: [Problem](https://leetcode.com/problems/two-sum/description/) - [Solution](./04.%20Leetcode%20Solutions//1-TwoSum.md)
