@@ -1,12 +1,12 @@
-# Problem 242: Valid Anagram
+# 💬 Problem 242: Valid Anagram
 
-## Problem Statement
+## 📝 Problem Statement
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
 
 An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, using all the original letters exactly once.
 
-## Example 1
+## 📚 Example 1
 
 **Input:**
 
@@ -20,7 +20,7 @@ s = "anagram", t = "nagaram"
 true
 ```
 
-## Example 2
+## 📚 Example 2
 
 **Input:**
 
@@ -34,12 +34,12 @@ s = "rat", t = "car"
 false
 ```
 
-## Constraints
+## 📏 Constraints
 
 - 1 <= s.length, t.length <= 5 \* 10<sup>4</sup>
 - `s` and `t` consist of lowercase English letters.
 
-## Solution
+## 🎯 Solution
 
 ### Approach 1: Sort and Compare
 
@@ -107,7 +107,7 @@ public class Solution {
   - **Value**: `O(n)`
   - **Explanation**: Space is required to store the sorted arrays of each string.
 
-### Approach 2: Hashmap Comparison
+### Approach 2: Hashmap Comparison 🚀
 
 #### _Description:_
 
@@ -195,7 +195,7 @@ public class Solution {
   - **Value**: `O(n)`
   - **Explanation**: We use a hash map to store the frequency of characters for each string.
 
-### Approach 3: Constant Space Array
+### Approach 3: Constant Space Array 🚀
 
 #### _Description:_
 
