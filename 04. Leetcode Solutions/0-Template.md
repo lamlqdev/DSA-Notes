@@ -1,9 +1,8 @@
 # Problem <problem_index>: <problem_name>
 
 ## Problem Statement
->
-> This is the problem statement
->
+This is the problem statement
+
 ## Example
 
 **Input:**
