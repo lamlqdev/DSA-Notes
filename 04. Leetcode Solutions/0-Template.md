@@ -18,8 +18,8 @@ This is the problem statement
 ```
 
 ## Constraints
-> - `This is the 1st constraint`
-> - `This is the 2nd constraint`
+> - This is the 1st constraint
+> - This is the 2nd constraint
 
 ## Solution
 
