@@ -26,10 +26,10 @@ Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
 ## Constraints
-> - 2 <= nums.length <= 10<sup>4</sup>
-> - -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>
-> - -10<sup>9</sup> <= target <= 10<sup>9</sup>
-> - **Only one valid answer exists**
+ - 2 <= nums.length <= 10<sup>4</sup>
+ - -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>
+ - -10<sup>9</sup> <= target <= 10<sup>9</sup>
+ - **Only one valid answer exists**
 
 ## Solution
 
