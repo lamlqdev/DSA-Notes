@@ -102,7 +102,7 @@ public bool IsPalindrome(int x) {
   - **Value**: `O(n)`
   - **Explanation**: `n` is the number of digits in the input number. This is due to the space required to store the string representation of the number and its reversed version
 
-### Approach 2: Mathetically Reverse-and-Compare (🚀) 
+### Approach 2: Reverse and Compare 
 
 #### *Description:*
 >
@@ -162,3 +162,66 @@ public bool IsPalindrome(int x) {
 - **Space Complexity:** 
   - **Value**: `O(1)`
   - **Explanation**: The algorithm uses a fixed amount of space for integer variables (`palindrome`, `original`, `n`) to store intermediate values. No additional data structures are utilized, so the space complexity remains constant
+
+
+
+### Approach 3: Reverse-Half and Compare (🚀)
+
+#### *Description:*
+>
+> This approach determines whether an integer is a palindrome by reversing the digits of the integer (but only a second half) and comparing it with the first half, following this process: 
+> 1. **Handle Negative Cases:** Immediately return `false` for ***negative numbers*** and ***numbers end with 0 except for 0*** since they cannot be palindromes.
+> 2. **Single-Digit Optimization**: Return `true` for numbers less than 10, as all single-digit numbers are palindromes.
+> 3. **Reverse the Number:** 
+>   - Use a loop to build the reversed second half of the number
+>   - Stop when the reversed half is greater than or equal to the remaining half.
+> 4. **Compare:** Check if the two halves are equal or if removing the middle digit (for odd-length numbers) makes them equal.
+#### *Implementation:*
+##### JavaScript
+```javascript
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+  if (x < 0 || (x % 10 === 0 && x !== 0)) return false;
+  if (x < 10) return true;
+
+  let palindrome = 0;
+  while (x > palindrome) {
+    palindrome = palindrome * 10 + (x % 10);
+    x = Math.floor(x / 10);
+  }
+
+  return palindrome === x || Math.floor(palindrome / 10) === x;
+};
+
+```
+
+##### C#
+```csharp
+public bool IsPalindrome(int x) {
+  if (x < 0 || (x % 10 == 0 && x != 0)) return false;
+  if (x < 10) return true;
+
+  int palindrome = 0;
+  while (x > palindrome) 
+  {
+    palindrome *= 10;
+    palindrome += (x % 10);
+    x /= 10;
+  }
+
+  return (palindrome == x || palindrome / 10 == x);
+}
+```
+
+#### *Complexity Analysis*
+- **Time Complexity:** 
+  - **Value**: `O(log10(n))`, 
+  - **Explanation**: The algorithm divides the input number `n` by 10 in each iteration of the `while` loop. This continues until `n` becomes less than or equal to `palindrome`, which takes approximately `log10(n)` iterations, where `log10(n)` is the number of digits in `n`
+- **Space Complexity:** 
+  - **Value**: `O(1)`
+  - **Explanation**: The algorithm uses a constant amount of extra space. Variable likes `palindrome` do not grow with the size of the input `n`. No additional data structures are used.
+
+
