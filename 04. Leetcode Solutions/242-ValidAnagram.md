@@ -102,7 +102,7 @@ public class Solution {
 
 - **Time Complexity:**
   - **Value**: `O(nlogn)`,
-  - **Explanation**: Sorting both arraysarrays requires `O(nlogn)`. The additional loop for comparison runs in `O(n)`, but it is dominated by the sorting step.
+  - **Explanation**: Sorting both arrays requires `O(nlogn)`. The additional loop for comparison runs in `O(n)`, but it is dominated by the sorting step.
 - **Space Complexity:**
   - **Value**: `O(n)`
   - **Explanation**: Space is required to store the sorted arrays of each string.
