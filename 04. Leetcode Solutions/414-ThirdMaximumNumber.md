@@ -1,10 +1,10 @@
-# Problem 414: Third Maximum Number
+# 💬 Problem 414: Third Maximum Number
 
-## Problem Statement
+## 📝 Problem Statement
 
 Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
 
-## Example 1
+## 📚 Example 1
 
 **Input:**
 
@@ -26,7 +26,7 @@ The second distinct maximum is 2.
 The third distinct maximum is 1.
 ```
 
-## Example 2
+## 📚 Example 2
 
 **Input:**
 
@@ -48,7 +48,7 @@ The second distinct maximum is 1.
 The third distinct maximum does not exist, so the maximum (2) is returned instead.
 ```
 
-## Example 3
+## 📚 Example 3
 
 **Input:**
 
@@ -70,12 +70,12 @@ The second distinct maximum is 2 (both 2's are counted together since they have 
 The third distinct maximum is 1.
 ```
 
-## Constraints
+## 📏 Constraints
 - 1 <= nums.length <= 10<sup>4</sup>
 - -2 <sup>31</sup> <= nums[i] <= 2 <sup>31</sup> - 1
 
 
-## Solution
+## 🎯 Solution
 
 ### Approach 1: Using Set and Sorting
 
