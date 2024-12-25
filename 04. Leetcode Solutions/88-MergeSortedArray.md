@@ -1,6 +1,7 @@
 # 💬 Problem 88: Merge Sorted Array
 
 ## 📝 Problem Statement
+
 You are given two integer arrays `nums1` and `nums2`, sorted in **non-decreasing order**, and two integers `m` and `n`, representing the number of elements in nums1 and nums2 respectively.
 
 Merge `nums1` and `nums2` into a single array sorted in **non-decreasing order.**
@@ -10,16 +11,19 @@ The final sorted array should not be returned by the function, but instead be st
 ## 📚 Example 1
 
 **Input:**
+
 ```
 nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 ```
 
 **Output:**
+
 ```
 [1,2,2,3,5,6]
 ```
 
 **Explanation:**
+
 ```
 The arrays we are merging are [1,2,3] and [2,5,6].
 The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
@@ -28,16 +32,19 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 ## 📚 Example 2
 
 **Input:**
+
 ```
 nums1 = [1], m = 1, nums2 = [], n = 0
 ```
 
 **Output:**
+
 ```
 [1]
 ```
 
 **Explanation:**
+
 ```
 The arrays we are merging are [1] and [].
 The result of the merge is [1].
@@ -46,16 +53,19 @@ The result of the merge is [1].
 ## 📚 Example 3
 
 **Input:**
+
 ```
 nums1 = [0], m = 0, nums2 = [1], n = 1
 ```
 
 **Output:**
+
 ```
 [1]
 ```
 
 **Explanation:**
+
 ```
 The arrays we are merging are [] and [1].
 The result of the merge is [1].
@@ -63,61 +73,67 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 ```
 
 ## 📏 Constraints
- - nums1.length == m + n
- - nums2.length == n
- - 0 <= m, n <= 200
- - 1 <= m + n <= 200
- - -109 <= nums1[i], nums2[j] <= 109
+
+- nums1.length == m + n
+- nums2.length == n
+- 0 <= m, n <= 200
+- 1 <= m + n <= 200
+- -10<sup>9</sup> <= nums1[i], nums2[j] <= 10<sup>9</sup>
 
 ## 🎯 Solution
 
 ### Approach 1: Extra Array
 
-#### *Description:*
->
+#### _Description:_
+
 > Use an auxiliary array to merge both arrays while maintaining their sorted order.
+>
 > - Create a new array `merged`.
 > - Use two pointers to traverse `nums1` (actual part) and `nums2`. Compare elements from both arrays and push the smaller one into merged.
 > - Copy any remaining elements from either array into merged.
 > - Copy the contents of `merged` back to `nums1`.
-> 
-#### *Implementation:*
+
+#### _Implementation:_
+
 ##### JavaScript
+
 ```javascript
 /**
- * @param 
- * @param 
- * @return 
+ * @param
+ * @param
+ * @return
  */
-var merge = function(nums1, m, nums2, n) {
-    let merged = [];
-    let i = 0, j = 0;
+var merge = function (nums1, m, nums2, n) {
+  let merged = [];
+  let i = 0,
+    j = 0;
 
-    while (i < m && j < n) {
-        if (nums1[i] < nums2[j]) {
-            merged.push(nums1[i]);
-            i++;
-        } else {
-            merged.push(nums2[j]);
-            j++;
-        }
+  while (i < m && j < n) {
+    if (nums1[i] < nums2[j]) {
+      merged.push(nums1[i]);
+      i++;
+    } else {
+      merged.push(nums2[j]);
+      j++;
     }
+  }
 
-    while (i < m) {
-        merged.push(nums1[i++]);
-    }
+  while (i < m) {
+    merged.push(nums1[i++]);
+  }
 
-    while (j < n) {
-        merged.push(nums2[j++]);
-    }
+  while (j < n) {
+    merged.push(nums2[j++]);
+  }
 
-    for (let k = 0; k < merged.length; k++) {
-        nums1[k] = merged[k];
-    }
+  for (let k = 0; k < merged.length; k++) {
+    nums1[k] = merged[k];
+  }
 };
 ```
 
 ##### C#
+
 ```csharp
 public void Merge(int[] nums1, int m, int[] nums2, int n) {
     int[] merged = new int[m + n];
@@ -145,24 +161,25 @@ public void Merge(int[] nums1, int m, int[] nums2, int n) {
 }
 ```
 
-#### *Complexity Analysis*
-- **Time Complexity:** 
-  - **Value**: `O(m + n)`, 
+#### _Complexity Analysis_
+
+- **Time Complexity:**
+  - **Value**: `O(m + n)`,
   - **Explanation**: Merge step traverses both arrays.
-- **Space Complexity:** 
+- **Space Complexity:**
   - **Value**: `O(m + n)`
   - **Explanation**: Additional array `merged` is used.
 
-### Approach 2: Two Pointers from End  🚀 
+### Approach 2: Two Pointers from End 🚀
 
-#### *Description:*
->
+#### _Description:_
+
 > This approach avoids extra space by filling `nums1` from the back to the front.
-> 
+>
 > - Use three pointers:
-> 
+>
 >   `i`: Tracks the last actual element in `nums1`.
-> 
+>
 >   `j`: Tracks the last element in `nums2`.
 >
 >   `k`: Tracks the position to fill in `nums1`.
@@ -170,34 +187,37 @@ public void Merge(int[] nums1, int m, int[] nums2, int n) {
 > - Compare elements from `nums1` and `nums2` starting from the back.
 > - Place the larger element at `nums1[k] `and move the corresponding pointer.
 > - If any elements remain in `nums2`, copy them into nums1.
->
-#### *Implementation:*
+
+#### _Implementation:_
+
 ##### JavaScript
+
 ```javascript
 /**
- * @param 
- * @param 
- * @return 
+ * @param
+ * @param
+ * @return
  */
-var merge = function(nums1, m, nums2, n) {
-    let i = m - 1;  
-    let j = n - 1; 
-    let k = m + n - 1;
+var merge = function (nums1, m, nums2, n) {
+  let i = m - 1;
+  let j = n - 1;
+  let k = m + n - 1;
 
-    while (j >= 0) {
-        if (i >= 0 && nums1[i] > nums2[j]) {
-            nums1[k] = nums1[i];
-            i--;
-        } else {
-            nums1[k] = nums2[j];
-            j--;
-        }
-        k--;
+  while (j >= 0) {
+    if (i >= 0 && nums1[i] > nums2[j]) {
+      nums1[k] = nums1[i];
+      i--;
+    } else {
+      nums1[k] = nums2[j];
+      j--;
     }
+    k--;
+  }
 };
 ```
 
 ##### C#
+
 ```csharp
 public void Merge(int[] nums1, int m, int[] nums2, int n) {
     int i = m - 1;
@@ -214,10 +234,11 @@ public void Merge(int[] nums1, int m, int[] nums2, int n) {
 }
 ```
 
-#### *Complexity Analysis*
-- **Time Complexity:** 
-  - **Value**: `O(m + n)`, 
+#### _Complexity Analysis_
+
+- **Time Complexity:**
+  - **Value**: `O(m + n)`,
   - **Explanation**: Traverses both arrays once.
-- **Space Complexity:** 
+- **Space Complexity:**
   - **Value**: `O(1)`
   - **Explanation**: Operates directly on `nums1` without additional memory.
