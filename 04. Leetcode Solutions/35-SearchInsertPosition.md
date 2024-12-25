@@ -71,9 +71,9 @@ nums = [1,3,5,6], target = 7
 
 ```javascript
 /**
- * @param
- * @param
- * @return
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
  */
 var searchInsert = function (nums, target) {
   let left = 0;
