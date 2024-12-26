@@ -1,12 +1,16 @@
 # Data Structure & Algorithm
 
 ## Description
+
 Implementations of common Data Structures and Algorithms for problem solving and interview preparation.
 
 ## Problem Sets & Solutions
+
 #### 1. **Two Sum**: [Problem](https://leetcode.com/problems/two-sum/description/) - [Solution](./04.%20Leetcode%20Solutions//1-TwoSum.md)
 
 #### 9. **Palindrome Number**: [Problem](https://leetcode.com/problems/palindrome-number/description/) - [Solution](./04.%20Leetcode%20Solutions//9-PalindromeNumber.md)
+
+#### 26. **Remove Duplicates form Sorted Array**: [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](./04.%20Leetcode%20Solutions//26-RemoveDuplicatesFromSortedArray.md)
 
 #### 35. **Search Insert Position**: [Problem](https://leetcode.com/problems/search-insert-position/description/) - [Solution](./04.%20Leetcode%20Solutions//35-SearchInsertPosition.md)
 
