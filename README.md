@@ -12,6 +12,8 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 26. **Remove Duplicates form Sorted Array**: [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](./04.%20Leetcode%20Solutions//26-RemoveDuplicatesFromSortedArray.md)
 
+#### 27. **Remove Element**: [Problem](https://leetcode.com/problems/remove-element/description/) - [Solution](./04.%20Leetcode%20Solutions//27-RemoveElement.md)
+
 #### 35. **Search Insert Position**: [Problem](https://leetcode.com/problems/search-insert-position/description/) - [Solution](./04.%20Leetcode%20Solutions//35-SearchInsertPosition.md)
 
 #### 88. **Merge Sorted Array**: [Problem](https://leetcode.com/problems/merge-sorted-array/description/) - [Solution](./04.%20Leetcode%20Solutions//88-MergeSortedArray.md)
