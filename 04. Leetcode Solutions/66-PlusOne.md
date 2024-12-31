@@ -6,7 +6,7 @@ You are given a **large integer** represented as an integer array `digits`, wher
 
 Increment the large integer by one and return the resulting array of digits.
 
-## 📚 Example
+## 📚 Example 1
 
 **Input:**
 
@@ -27,6 +27,8 @@ The array represents the integer 123.
 Incrementing by one gives 123 + 1 = 124.
 Thus, the result should be [1,2,4].
 ```
+
+## 📚 Example 2
 
 **Input:**
 
