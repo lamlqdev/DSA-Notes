@@ -40,7 +40,7 @@ nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 
 ## 🎯 Solution
 
-### Approach 1: Hash Map
+### Approach 1: Hash Map 🚀
 
 #### _Description:_
 
@@ -111,7 +111,7 @@ public class Solution {
   - **Value**: `O(min(n, m))`
   - **Explanation**: We store the smaller array in the hash map to optimize space usage.
 
-### Approach 2: Sorting and Two Pointers
+### Approach 2: Sorting and Two Pointers 🚀
 
 #### _Description:_
 

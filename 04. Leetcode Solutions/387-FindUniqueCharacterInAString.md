@@ -6,36 +6,43 @@ Given a string `s`, find the first non-repeating character in it and return its 
 
 ## 📚 Example 1
 
+**Input:**
 ```
-Input: s = "leetcode"
-```
-
-```
-Output: 0
+s = "leetcode"
 ```
 
+**Output:**
+```
+0
+```
+
+**Explanation:**
 ```
 The character 'l' at index 0 is the first character that does not occur at any other index.
 ```
 
 ## 📚 Example 2
 
+**Input:**
 ```
-Input: s = "loveleetcode"
+s = "loveleetcode"
 ```
 
+**Output:**
 ```
-Output: 2
+2
 ```
 
 ## 📚 Example 3
 
+**Input:**
 ```
-Input: s = "aabb"
+s = "aabb"
 ```
 
+**Output:**
 ```
-Output: -1
+-1
 ```
 
 ## 📏 Constraints
