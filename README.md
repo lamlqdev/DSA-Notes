@@ -28,6 +28,8 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 268. **Missing Number**: [Problem](https://leetcode.com/problems/missing-number/description/) - [Solution](./04.%20Leetcode%20Solutions//268-MissingNumber.md)
 
+#### 283. **Move Zeroes**: [Problem](https://leetcode.com/problems/move-zeroes/description/) - [Solution](./04.%20Leetcode%20Solutions//283-MoveZeroes.md)
+
 #### 349. **Intersection of Two Arrays**: [Problem](https://leetcode.com/problems/intersection-of-two-arrays/description/) - [Solution](./04.%20Leetcode%20Solutions//349-IntersectionOfTwoArrays.md)
 
 #### 414. **Third Maximum Number**: [Problem](https://leetcode.com/problems/third-maximum-number/description/) - [Solution](./04.%20Leetcode%20Solutions//414-ThirdMaximumNumber.md)
