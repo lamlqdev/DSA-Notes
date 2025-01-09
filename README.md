@@ -32,4 +32,6 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 349. **Intersection of Two Arrays**: [Problem](https://leetcode.com/problems/intersection-of-two-arrays/description/) - [Solution](./04.%20Leetcode%20Solutions//349-IntersectionOfTwoArrays.md)
 
+#### 350. **Intersection of Two Arrays II**: [Problem](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) - [Solution](./04.%20Leetcode%20Solutions//350-IntersectionOfTwoArraysII.md)
+
 #### 414. **Third Maximum Number**: [Problem](https://leetcode.com/problems/third-maximum-number/description/) - [Solution](./04.%20Leetcode%20Solutions//414-ThirdMaximumNumber.md)
