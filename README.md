@@ -41,3 +41,5 @@ Implementations of common Data Structures and Algorithms for problem solving and
 #### 414. **Third Maximum Number**: [Problem](https://leetcode.com/problems/third-maximum-number/description/) - [Solution](./04.%20Leetcode%20Solutions//414-ThirdMaximumNumber.md)
 
 #### 448. **Find All Numbers Disappeared in an Array**: [Problem](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) - [Solution](./04.%20Leetcode%20Solutions//448-FindAllNumbersDisappearedInAnArray.md)
+
+#### 876. **Middle of the Linked List**: [Problem](https://leetcode.com/problems/middle-of-the-linked-list/description/) - [Solution](./04.%20Leetcode%20Solutions//876-MiddleOfTheLinkedList.md)
