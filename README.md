@@ -22,6 +22,8 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 88. **Merge Sorted Array**: [Problem](https://leetcode.com/problems/merge-sorted-array/description/) - [Solution](./04.%20Leetcode%20Solutions//88-MergeSortedArray.md)
 
+#### 169. **Majority Element**: [Problem](https://leetcode.com/problems/majority-element/description/) - [Solution](./04.%20Leetcode%20Solutions//169-MajorityElement.md)
+
 #### 217. **Contains Duplicate**: [Problem](https://leetcode.com/problems/contains-duplicate/description/) - [Solution](./04.%20Leetcode%20Solutions//217-ContainsDuplicate.md)
 
 #### 242. **Valid Anagram**: [Problem](https://leetcode.com/problems/valid-anagram/description/) - [Solution](./04.%20Leetcode%20Solutions//242-ValidAnagram.md)
