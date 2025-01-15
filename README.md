@@ -28,6 +28,8 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 217. **Contains Duplicate**: [Problem](https://leetcode.com/problems/contains-duplicate/description/) - [Solution](./04.%20Leetcode%20Solutions//217-ContainsDuplicate.md)
 
+#### 237. **Delete Node in a Linked List**: [Problem](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) - [Solution](./04.%20Leetcode%20Solutions//237-DeleteNodeInALinkedList.md)
+
 #### 242. **Valid Anagram**: [Problem](https://leetcode.com/problems/valid-anagram/description/) - [Solution](./04.%20Leetcode%20Solutions//242-ValidAnagram.md)
 
 #### 268. **Missing Number**: [Problem](https://leetcode.com/problems/missing-number/description/) - [Solution](./04.%20Leetcode%20Solutions//268-MissingNumber.md)
