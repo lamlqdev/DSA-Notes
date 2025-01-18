@@ -12,6 +12,8 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 11. **Container With Most Water**: [Problem](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](./04.%20Leetcode%20Solutions//11-ContainerWithMostWater.md)
 
+#### 15. **3Sum**: [Problem](https://leetcode.com/problems/3sum/description/) - [Solution](./04.%20Leetcode%20Solutions//15-3Sum.md)
+
 #### 26. **Remove Duplicates from Sorted Array**: [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](./04.%20Leetcode%20Solutions//26-RemoveDuplicatesFromSortedArray.md)
 
 #### 27. **Remove Element**: [Problem](https://leetcode.com/problems/remove-element/description/) - [Solution](./04.%20Leetcode%20Solutions//27-RemoveElement.md)
