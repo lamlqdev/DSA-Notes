@@ -1,8 +1,10 @@
 # Arrays
 
 ## 1. Introduction
+
 **Arrays (or lists)** are one of the **most common and simple** data structures, which organize items sequentially in memory. \
 Operations of Array:
+
 | Operation | Description    | Time Complexity | Explanation |
 |-----|-------------|-----------|------------|
 | Access   | Accessing an element by index   | O(1)      | Direct access to any element, as items are stored contiguously in memory.    |
@@ -16,6 +18,7 @@ Operations of Array:
 - Slower Operations: Inserting or deleting from the beginning or middle of the array (Unshift, Splice) involves O(n) time complexity due to the need to shift elements.
 
 ## 2. Static & Dynamic Arrays
+
 | Aspect               | Static Arrays                                      | Dynamic Arrays                                      |
 |----------------------|---------------------------------------------------|-----------------------------------------------------|
 | Size                 | Fixed size, must be specified ahead of time.      | Can dynamically resize as needed.                   |
