@@ -37,7 +37,7 @@ Big O focuses on **_how the number of operations grows_** as the input size incr
 
 Big O helps quantify this growth and identify which algorithms will handle large inputs effectively.
 
-### 4. O(n)
+### 1.4. O(n)
 
 ```javascript
 function linearSearch(arr, target) {
@@ -66,7 +66,7 @@ This is described as **`O(n)`** or "linear time complexity".
 
 ``n`` represents the number of inputs (or items in the array). As n increases, the number of operations increases proportionally.
 
-### 5. O(1)
+### 1.5. O(1)
 
 ```javascript
 function getFirstElement(arr) {
@@ -88,7 +88,7 @@ O(1) is a flat line on the graph — the number of operations does not grow with
 
 Constant time functions are highly desirable in computing because they handle scalability exceptionally well.
 
-### 6. O(n²)
+### 1.6. O(n²)
 
 ```javascript
 function printAllPairs(arr) {
