@@ -8,7 +8,9 @@
   - **Node/Vertex**: Represents an individual entity
   - **Edge**: Represents the relationship between two nodes
 
-![Graph](../assets/graph.png)
+<p align="center">
+    <img src="../assets/graph.png">
+</p>
 
 ### Applications
 
@@ -22,7 +24,9 @@
 - Graphs are a versatile data structure for modeling real-world connections.
 - Linked lists and trees are specific types of graphs.
 
-![Graph](../assets/graph-real-world.png)
+<p align="center">
+    <img src="../assets/graph-real-world.png">
+</p>
 
 ## 2. Type of Graphs
 
@@ -33,7 +37,9 @@
 | Directed Graph   | Edges have direction (one-way).          | Twitter (user follows) |
 | Undirected Graph | Edges are bi-directional (two-way).      | Facebook (friendship)  |
 
-![Graph](../assets/graph-directed-undirected.png)
+<p align="center">
+    <img src="../assets/graph-directed-undirected.png">
+</p>
 
 ### Weighted vs. Unweighted Graph
 
@@ -42,7 +48,9 @@
 | Weighted Graph   | Edges have weights (e.g., distance, cost). | Google Maps (shortest path) |
 | Unweighted Graph | Edges do not carry additional information. | Basic networks.             |
 
-![Graph](../assets/graph-weighted-unweighted.png)
+<p align="center">
+    <img src="../assets/graph-weighted-unweighted.png">
+</p>
 
 ### Cyclic vs. Acyclic
 
@@ -51,4 +59,6 @@
 | Cyclic Graph    | Contains cycles (can return to the start).| Road networks.     |
 | Acyclic Graph   | No cycles; cannot return to the start.    | Trees.             |
 
-![Graph](../assets/graph-cyclic-acyclic.png)
+<p align="center">
+    <img src="../assets/graph-cyclic-acyclic.png">
+</p>

@@ -33,7 +33,9 @@ Singly Linked List: In a singly linked list, each node points to the next node, 
 
 `Pointer`: A reference to the location of the next node in memory.
 
-![Graph](../assets/linked-list.png)
+<p align="center">
+    <img src="../assets/linked-list.png">
+</p>
 
 ### 2.2. How It Works
 
@@ -98,7 +100,9 @@ A Doubly Linked List is a type of linked list where each node contains:
 
 `Tail`: Last node with next = null.
 
-![Graph](../assets/linked-list-doubly.png)
+<p align="center">
+    <img src="../assets/linked-list.png">
+</p>
 
 ### 4.2. Advantages
 

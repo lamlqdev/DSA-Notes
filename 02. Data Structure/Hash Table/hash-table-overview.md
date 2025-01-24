@@ -24,7 +24,9 @@ Convert keys (e.g., "grapes") into an index or memory address to store and retri
 
 Ensures O(1) time complexity for adding/retrieving data.
 
-![Graph](../assets/hashtable.png)
+<p align="center">
+    <img src="../assets/hashtable.png">
+</p>
 
 ### 1.4. How It Works in Hash Tables
 
@@ -78,7 +80,9 @@ Occurs when two keys map to the same bucket.
 
 Slows down operations like insert, lookup, and delete.
 
-![Graph](../assets/hashtable-collision.png)
+<p align="center">
+    <img src="../assets/hashtable-collision.png">
+</p>
 
 ### 3.3. Collision Handling
 
