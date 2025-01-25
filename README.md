@@ -14,6 +14,8 @@ Implementations of common Data Structures and Algorithms for problem solving and
 
 #### 15. **3Sum**: [Problem](https://leetcode.com/problems/3sum/description/) - [Solution](./04.%20Leetcode%20Solutions//15-3Sum.md)
 
+#### 21. **Merge Two Sorted Lists**: [Problem](https://leetcode.com/problems/merge-two-sorted-lists/description/) - [Solution](./04.%20Leetcode%20Solutions//21-MergeTwoSortedLists.md)
+
 #### 26. **Remove Duplicates from Sorted Array**: [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](./04.%20Leetcode%20Solutions//26-RemoveDuplicatesFromSortedArray.md)
 
 #### 27. **Remove Element**: [Problem](https://leetcode.com/problems/remove-element/description/) - [Solution](./04.%20Leetcode%20Solutions//27-RemoveElement.md)

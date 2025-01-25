@@ -10,25 +10,49 @@ A **word** is a maximal substring consisting of non-space characters only.
 
 **Example 1:**
 
+**Input:**
+
 ```
-Input: s = "Hello World"
-Output: 5
-Explanation: The last word is "World" with length 5.
+s = "Hello World"
+```
+
+**Output:**
+
+```
+5
+```
+
+**Explanation:**
+
+```
+The last word is "World" with length 5.
 ```
 
 **Example 2:**
 
+**Input:**
+
 ```
-Input: s = "   fly me   to   the moon  "
-Output: 4
-Explanation: The last word is "moon" with length 4.
+s = "   fly me   to   the moon  "
+```
+
+**Output:**
+
+```
+4
+```
+
+**Explanation:**
+
+```
+The last word is "moon" with length 4.
 ```
 
 ## 📏 Constraints
 
 - 1 <= s.length <= 10<sup>4</sup>
-- s consists of only English letters and spaces ' '
-- There will be at least one word in s
+- `s` consists of only English letters and spaces ' '
+- There will be at least one word in `s`
 
 ## 🎯 Solution
 
