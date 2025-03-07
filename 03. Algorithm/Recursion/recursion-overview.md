@@ -65,5 +65,50 @@ Recursion and iteration are interchangeable, but the choice depends on the situa
 > - Solutions to subproblems combine to solve the main problem.
 
 
+## 4. Playground
+
+### 4.1. Factorial
+```js
+function factorial(n) {
+  if (n === 0) return 1; // Base Case
+  return n * factorial(n - 1); // Recursive Case
+}
+```
+> `console.log(factorial(5));` returns 120
+
+### 4.2. Fibonacci
+```js
+function fibonacci(n) {
+  if (n <= 1) return n; // Base Case
+  return fibonacci(n - 1) + fibonacci(n - 2); // Recursive Case
+}
+```
+> `console.log(fibonacci(6));` returns 8
+
+### 4.2. Sum Array
+
+```js
+function sumArray(arr) {
+  if (arr.length === 0) return 0; // Base Case
+  return arr[0] + sumArray(arr.slice(1)); // Recursive Case
+}
+```
+> `console.log(sumArray([1, 2, 3, 4, 5]));` returns 15
+
+### 4.3. Tower of Hanoi
+```js
+function towerOfHanoi(n, from, to, aux) {
+  if (n === 1) {
+      console.log(`Move disk 1 from ${from} to ${to}`);
+      return;
+  }
+  towerOfHanoi(n - 1, from, aux, to); // Move n-1 disks to auxiliary
+  console.log(`Move disk ${n} from ${from} to ${to}`); // Move nth disk to target
+  towerOfHanoi(n - 1, aux, to, from); // Move n-1 disks to target
+}
+```
+> `towerOfHanoi(3, "A", "C", "B");`
+
+
 
 
