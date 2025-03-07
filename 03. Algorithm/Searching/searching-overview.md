@@ -14,6 +14,7 @@ Linear search (or sequential search) is a method to find a target value within a
  - **Best Case**: O(1) → The target is the first element.
  - **Average Case**: O(n) → The target is found randomly in the list, requiring an average of n/2 comparisons.
  - **Worst Case**: O(n) → The target is the last element or doesn’t exist.
+  
 
 ## 2. Binary Search
 
@@ -34,3 +35,20 @@ Binary search is an efficient method to find a target in a sorted list. Instead 
  - **Best Case**: O(1) → if the target is at the middle initially.
  - **Average Case**: O(logn) → Each step reduces the search space by half.
  - **Worst Case**: O(logn) → each step reduces the search space by half.
+
+### 2.4. Playground
+
+```js
+function binarySearch(arr, target) {
+    let left = 0, right = arr.length - 1;
+
+    while (left <= right) {
+        let mid = Math.floor((left + right) / 2);
+
+        if (arr[mid] === target) return mid;
+        else if (arr[mid] < target) left = mid + 1;
+        else right = mid - 1;
+    }
+
+    return -1; // Target not found
+}
